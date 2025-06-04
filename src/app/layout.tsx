@@ -32,7 +32,7 @@ export default function RootLayout({
           <div className=" h-24 border-b-2  border-blue-400 ">
             <Navbar />
           </div>
-          <div className=" h-[calc(100vh -6rem)]">{children}</div>
+          <div className=" h-[calc(100vh-6rem)]">{children}</div>
         </div>
       </body>
     </html>
