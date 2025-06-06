@@ -1,11 +1,20 @@
-import React from "react";
+"use client";
+import { motion } from "framer-motion";
 
 const Portfolio = () => {
   return (
-    <div className=" flex flex-col">
-      <div className=" h-1/2">1</div>
-      <div className=" h-1/2">2</div>
-    </div>
+    <motion.div
+      className=" h-full"
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 1 }}
+    >
+      <div className="">
+        {/* Text Container  */}
+        <div className=""></div>
+        {/* SVG Contaner  */}
+      </div>
+    </motion.div>
   );
 };
 
