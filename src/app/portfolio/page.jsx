@@ -9,11 +9,7 @@ const Portfolio = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="">
-        {/* Text Container  */}
-        <div className=""></div>
-        {/* SVG Contaner  */}
-      </div>
+      Prtfolio
     </motion.div>
   );
 };
