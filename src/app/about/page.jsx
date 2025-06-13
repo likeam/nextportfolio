@@ -84,6 +84,19 @@ const About = () => {
           {/* Experence  */}
           <div className=" flex flex-col gap-12 justify-center">
             <h1 className=" font-bold text-2xl">EXPERIENCE</h1>
+            <div className="">
+              <div className="">
+                {/* Left  */}
+                <div className="">
+                  <div className="">Full Stack Developer </div>
+                  <div className="">Full Stack Developer </div>
+                </div>
+                {/* Center  */}
+                <div className=""></div>
+                {/* Right  */}
+                <div className=""></div>
+              </div>
+            </div>
           </div>
         </div>
         {/* SVG Contaner  */}
